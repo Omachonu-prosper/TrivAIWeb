@@ -49,9 +49,9 @@ body::before{
 .blur-bottom::after{
   content: "";
   position: absolute;
-  bottom: -5px;
-  left: -5px;
-  right: 0;
+  bottom: -30px;
+  left: -20px;
+  right: -20px;
   height: 120px;
   background: linear-gradient(to right, #3f344e , #254056);
   filter: blur(15px);
