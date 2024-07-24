@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "../../public/Logo.png";
 import FilledButton from "./Buttons/FIlledButton";
 import TextButton from "./Buttons/TextButton";
+import OutlinedButton from "./Buttons/OutlinedButton";
 
 const Navbar = () => {
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
           <TextButton text={"About Us"}/>
         </li>
         <li>
-          <FilledButton text="Join a game" />
+          <OutlinedButton text="Join a game" />
         </li>
         <li>
           <FilledButton text="Create a game" />
