@@ -6,7 +6,7 @@ import browserDark from "../assets/browser_dark.png";
 
 const Hero = () => {
   return (
-    <div className="relative h-full flex flex-col">
+    <div className="relative flex flex-col">
       <Image
         src={heroImage}
         className="w-[75%] z-0 inset-0 absolute left-[50%] -translate-x-[50%]"
