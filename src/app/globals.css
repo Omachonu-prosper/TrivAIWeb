@@ -1,68 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-  background-image: linear-gradient(to right, #9068C1, #3892DB);
-  
+body {
+  background-image: linear-gradient(to right, #9068c1, #3892db);
 }
-body::before{
-  content: '';
+body::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background-color: #1E1E1EB2;
+  background-color: #1e1e1eb2;
   opacity: 70;
   z-index: -1;
 }
 
-.text-button:hover{
-  background: linear-gradient(to right, #9068C1, #3892DB);
+.text-button:hover {
+  background: linear-gradient(to right, #9068c1, #3892db);
   -webkit-background-clip: text;
   color: transparent;
 }
 
-.gradient-text{
-  background: linear-gradient(to right, #9068C1, #3892DB);
+.gradient-text {
+  background: linear-gradient(to right, #9068c1, #3892db);
   -webkit-background-clip: text;
   color: transparent;
 }
 
-.outline-btn{
+.outline-btn {
   position: relative;
   border: 2px solid transparent;
-  border-image: linear-gradient(to right, #9068C1, #3892DB) 1;
+  border-image: linear-gradient(to right, #9068c1, #3892db) 1;
 }
 
-.outline-btn:hover{
-  position: relative;
-  border: 2px solid transparent;
-  border-radius: 6px;
-  border-image: linear-gradient(to right, #3892DB, #9068C1) 1;
+.outline-btn:hover {
+  border-image: linear-gradient(to right, #3892db, #9068c1) 1;
 }
 
-.blur-bottom::after{
+.blur-bottom::after {
   content: "";
   position: absolute;
   bottom: -30px;
   left: -20px;
   right: -20px;
-  height: 120px;
-  background: linear-gradient(to right, #3f344e , #254056);
+  height: 160px;
+  background: linear-gradient(to right, #3f344e, #254056);
   filter: blur(15px);
   pointer-events: none;
   z-index: 2;
-}
-
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }
