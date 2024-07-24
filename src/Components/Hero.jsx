@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="bg-[#d9d9d9] mt-[40px] px-32 py-10 z-10 bg-opacity-20 blur-bottom relative">
+      <div className="bg-[#d9d9d9] mt-[40px] px-32 py-10 z-10 bg-opacity-20 blur-bottom relative overflow-hidden">
         <Image src={browserDark} className="opacity-100z"/>
       </div>
     </div>
