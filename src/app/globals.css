@@ -6,6 +6,7 @@
 
 body{
   background-image: linear-gradient(to right, #9068C1, #3892DB);
+  
 }
 body::before{
   content: '';
@@ -25,6 +26,40 @@ body::before{
   -webkit-background-clip: text;
   color: transparent;
 }
+
+.gradient-text{
+  background: linear-gradient(to right, #9068C1, #3892DB);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.outline-btn{
+  position: relative;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #9068C1, #3892DB) 1;
+}
+
+.outline-btn:hover{
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  border-image: linear-gradient(to right, #3892DB, #9068C1) 1;
+}
+
+.blur-bottom::after{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to right, #3f344e , #254056);
+  filter: blur(15px);
+  pointer-events: none;
+  z-index: 2;
+}
+
+
 
 @layer utilities {
   .text-balance {
