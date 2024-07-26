@@ -39,15 +39,16 @@ body::before {
 
 .outline-btn {
   position: relative;
-}
-
-.custom-border{
+  border: 2px solid transparent;
   border-image: linear-gradient(to right, #9068c1, #3892db) 1;
-
 }
 
 .outline-btn:hover {
   border-image: linear-gradient(to right, #3892db, #9068c1) 1;
+}
+
+.custom-border{
+  border-image: linear-gradient(to right, #9068c1, #3892db) 1;
 }
 
 .bg-custom{
@@ -68,9 +69,4 @@ body::before {
 }
 .rounded-custom{
   border-radius: 64px !important;
-}
-
-.movieBanner{
-  /* background: green; */
-  background-image:url('../assets/Funny.png') !important;
 }
