@@ -33,7 +33,7 @@ const AboutUs = () => {
           Titans and become part of our growing community today! Ready to get
           started? Join the fun!
         </p>
-        <div className="flex justify-center w-full">
+        <div className="w-full">
           <FilledButton text={"Read More"} />
         </div>
       </div>

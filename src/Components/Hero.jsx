@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative flex flex-col">
       <Image
         src={heroImage}
-        className="lg:w-[75%] z-0 inset-0 absolute left-[50%] lg:translate-y-0 translate-y-[120%] -translate-x-[50%]"
+        className="lg:w-[75%] z-0 inset-0 absolute left-[50%] sm:translate-y-0 translate-y-[120%] -translate-x-[50%]"
       />
 
       <div className="z-30 flex flex-col lg:gap-[36px] gap-[20px] lg:w-[830px] mx-auto lg:mt-[70px] mt-16">
