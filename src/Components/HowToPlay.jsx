@@ -4,16 +4,16 @@ import ImagePalette from "./ImagePalette";
 
 const HowToPlay = () => {
   return (
-    <section className="w-[88%] container mx-auto flex lg:flex-row flex-col font-nunito text-[#fefefe] mb-10">
-      <div className="lg:w-[60%] flex flex-col gap-[40px]">
-        <h3 className="font-[800] text-[36px] ">
+    <section className="w-[88%] container mx-auto flex lg:flex-row flex-col-reverse font-nunito text-[#fefefe] mb-10">
+      <div className="lg:w-[60%] flex flex-col gap-6 lg:gap-[40px] lg:mt-0 mt-5">
+        <h3 className="font-[800] lg:text-[36px] text-2xl">
           How to <span className="gradient-text">Play</span> TrivAI
         </h3>
-        <p className="text-[#7AC4FF] font-[700] text-[24px]">
+        <p className="text-[#7AC4FF] font-[700] lg:text-[24px] text-[18px]">
           Welcome to TrivAI! Follow these simple steps to join the fun and start
           competing in our exciting AI-powered trivia games.
         </p>
-        <p className="text-[400] text-[20px]">
+        <p className="text-[400] text-[18px] lg:text-[20px] line-clamp-5 lg:line-clamp-none">
           Browse through our list of available trivAI games and select one that
           interests you. We have a variety of categories to choose from,
           including movies, sports, history, and more. Once you&apos;ve chosen
@@ -29,11 +29,11 @@ const HowToPlay = () => {
           these to showcase your trivia skills and motivate yourself to keep
           playing.
         </p>
-        <div className="flex">
+        <div className="flex lg:justify-start justify-center">
           <FilledButton text={"Join Now"} />
         </div>
       </div>
-      <div className="lg:w-[40%] hidden lg:block flex justify-center items-center">
+      <div className="lg:w-[40%] h-[300px] flex justify-center items-center">
         <ImagePalette/>
       </div>
     </section>

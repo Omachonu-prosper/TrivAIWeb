@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative flex flex-col">
       <Image
         src={heroImage}
-        className="lg:w-[75%] z-0 inset-0 absolute left-[50%] translate-y-[120%] -translate-x-[50%]"
+        className="lg:w-[75%] z-0 inset-0 absolute left-[50%] lg:translate-y-0 translate-y-[120%] -translate-x-[50%]"
       />
 
       <div className="z-30 flex flex-col lg:gap-[36px] gap-[20px] lg:w-[830px] mx-auto lg:mt-[70px] mt-16">
@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
 
       <div className="bg-[#d9d9d9] mt-[40px] px-2 py-5 lg:px-32 lg:py-10 z-10 bg-opacity-20 blur-bottom relative overflow-hidden">
-        <Image src={browserDark} className="opacity-100z"/>
+        <Image src={browserDark} className="opacity-100"/>
       </div>
     </div>
   );

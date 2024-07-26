@@ -34,7 +34,7 @@ const Footer = () => {
                 <p>(+234) 906-031-3347</p>
               </div>
               {/* social */}
-              <div className='grid grid-cols-3 sm:grid-cols-3 lg:flex lg:flex-wrap gap-4'>
+              <div className='lg:grid grid-cols-3 sm:grid-cols-3 lg:flex lg:flex-wrap gap-4 hidden'>
                 <p>Social Media</p>
                 <Image className='object-contain cursor-pointer' src={instagram} />
                 <Image className='object-contain cursor-pointer' src={facebook} />
