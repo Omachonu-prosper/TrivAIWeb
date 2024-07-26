@@ -22,7 +22,7 @@ const Footer = () => {
           <div className='my-12 h-[2px] w-full gradient-bg'></div>
           <div className='grid lg:grid-cols-2 items-center justify-center gap-8'>
             {/* logo */}
-            <Image src={logo} />
+            <Image src={logo} className='w-[150px]'/>
             <div className='flex flex-col items-start gap-8'>
               {/* contact */}
               <div className='flex items-center gap-2'>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <p>(+234) 906-031-3347</p>
               </div>
               {/* social */}
-              <div className='lg:grid grid-cols-3 sm:grid-cols-3 lg:flex lg:flex-wrap gap-4 hidden'>
+              <div className='lg:flex gap-6 hidden'>
                 <p>Social Media</p>
                 <Image className='object-contain cursor-pointer' src={instagram} />
                 <Image className='object-contain cursor-pointer' src={facebook} />
