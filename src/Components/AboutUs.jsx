@@ -6,7 +6,7 @@ import FilledButton from './Buttons/FIlledButton'
 
 const AboutUs = () => {
   return (
-    <div className='h-max mt-8 lg:mt-16 w-[88%] container mx-auto text-white grid lg:grid-cols-3 items-start justify-center lg:gap-14 gap-8'>
+    <div className='h-max mt-8 lg:mt-16 w-[88%] container mx-auto text-white grid lg:grid-cols-3 items-start justify-center lg:gap-14 gap-8 font-nunito'>
       <Image src={img}  width={350} className='object-cover bg-custom rounded-tl-[200px] rounded-md lg:block hidden' />
       <div className='flex flex-col items-start justify-around col-span-2 gap-2'>
         <h1 className='text-center self-center font-[800] text-[36px] '><span className="gradient-text">About</span> Us</h1>
