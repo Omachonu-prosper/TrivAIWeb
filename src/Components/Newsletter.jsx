@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletter = () => {
     return (
-        <section className="mt-8 lg:mt-16 lg:w-[88%] h-max container mx-auto flex font-nunito text-[#fefefe] mb-10">
+        <section className="mt-8 lg:mt-16 w-[88%] h-max container mx-auto flex font-nunito text-[#fefefe] mb-10">
             <div className='flex flex-col gap-4 items-center justify-center w-full text-white p-14 lg:h-[300px] h-max border-2 custom-border rounded-xl '>
                 <div className='lg:w-[60%] flex flex-col gap-4 items-center justify-center'>
                     <h1 className='font-[800] text-3xl lg:text-[36px] text-center'><span className="gradient-text">Subscribe</span> to our newsletter</h1>
