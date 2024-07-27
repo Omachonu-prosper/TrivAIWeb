@@ -3,7 +3,7 @@ import FilledButton from './Buttons/FIlledButton'
 import Image from "next/image";
 
 // images
-import playButton from '../assets/play.png'
+import playButton from '../assets/Play.png'
 
 const MovieMania = () => {
   return (
