@@ -25,6 +25,12 @@ body::before {
   color: transparent;
 }
 
+.gradient-bg{
+  -webkit-background-clip: text;
+  background: linear-gradient(to right, #9068c1, #3892db);
+
+}
+
 .gradient-text {
   background: linear-gradient(to right, #9068c1, #3892db);
   -webkit-background-clip: text;
@@ -33,12 +39,19 @@ body::before {
 
 .outline-btn {
   position: relative;
-  border: 2px solid transparent;
+}
+
+.custom-border{
   border-image: linear-gradient(to right, #9068c1, #3892db) 1;
+
 }
 
 .outline-btn:hover {
   border-image: linear-gradient(to right, #3892db, #9068c1) 1;
+}
+
+.bg-custom{
+  background: linear-gradient(to right, #3892db, #9068c1);
 }
 
 .blur-bottom::after {
@@ -52,4 +65,12 @@ body::before {
   filter: blur(15px);
   pointer-events: none;
   z-index: 2;
+}
+.rounded-custom{
+  border-radius: 64px !important;
+}
+
+.movieBanner{
+  /* background: green; */
+  background-image:url('../assets/Funny.png') !important;
 }

@@ -12,13 +12,13 @@ const Hero = () => {
         className="w-[75%] z-0 inset-0 absolute left-[50%] -translate-x-[50%]"
       />
 
-      <div className="z-30 flex flex-col gap-[36px] w-[830px] mx-auto mt-[70px]">
+      <div className="z-30 flex flex-col gap-[36px] lg:w-[830px] mx-auto mt-[70px]">
         <div className="flex flex-col items-center font-nunito font-[900] text-[50px] text-[#fefefe]">
-          <h2 className="">
+          <h2 className="text-center">
             Unleash <span className="gradient-text">Your Trivia Genius </span>{" "}
             with
           </h2>
-          <h2 className="">AI-Powered Challenges!</h2>
+          <h2 className="text-center">AI-Powered Challenges!</h2>
         </div>
         <div className="text-[#fefefe]">
           <p className="font-[400] text-[20px] text-center p-2">

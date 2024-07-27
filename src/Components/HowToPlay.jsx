@@ -4,8 +4,8 @@ import ImagePalette from "./ImagePalette";
 
 const HowToPlay = () => {
   return (
-    <section className="w-[88%] container mx-auto flex font-nunito text-[#fefefe] mb-10">
-      <div className="w-[60%] flex flex-col gap-[40px]">
+    <section className="w-[88%] container mx-auto flex lg:flex-row flex-col font-nunito text-[#fefefe] mb-10">
+      <div className="lg:w-[60%] flex flex-col gap-[40px]">
         <h3 className="font-[800] text-[36px] ">
           How to <span className="gradient-text">Play</span> TrivAI
         </h3>
@@ -33,7 +33,7 @@ const HowToPlay = () => {
           <FilledButton text={"Join Now"} />
         </div>
       </div>
-      <div className="w-[40%] flex justify-center items-center">
+      <div className="lg:w-[40%] hidden lg:block flex justify-center items-center">
         <ImagePalette/>
       </div>
     </section>

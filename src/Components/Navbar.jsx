@@ -9,7 +9,7 @@ import OutlinedButton from "./Buttons/OutlinedButton";
 
 const Navbar = () => {
   return (
-    <nav className="container w-[830px] h-[90px] z-50 mx-auto bg-[#1e1e1e] bg-opacity-30 rounded-[28px] px-[42px] py-[15px] mt-[30px] text-[#fefefe] flex items-center">
+    <nav className="container w-[830px] h-[90px] z-50 mx-auto bg-[#1e1e1e] bg-opacity-30 rounded-[28px] px-[42px] py-[15px] mt-[30px] text-[#fefefe] lg:flex items-center hidden ">
       <Image src={logo} />
       <ul className="ml-[70px] flex gap-[28px] items-center">
         <li>
